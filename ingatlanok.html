@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Ingatlanok – Stony & Grigo Property</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<header class="nav">
+  <div class="container nav-inner">
+    <a class="brand" href="index.html"><img src="logo_sg.jpg" alt=""><span>Stony &amp; Grigo Property &amp; Real Estate Investment</span></a>
+    <button class="hamburger" id="hamb"><span></span><span></span><span></span></button>
+    <nav class="menu">
+      <a href="index.html" target="_blank">Kezdőlap</a>
+      <a class="active" href="ingatlanok.html">Ingatlanok</a>
+      <a href="csapat.html" target="_blank">Kollégáink</a>
+      <a href="partnerek.html" target="_blank">Partnereink</a>
+      <a href="befektetok.html" target="_blank">Befektetőknek</a>
+      <a href="kapcsolat.html" target="_blank">Kapcsolat</a>
+    </nav>
+    <div class="lang" id="lang">
+      <button class="langbtn" type="button"><img class="flag" src="https://flagcdn.com/w20/hu.png" alt="HU" /><strong>HU</strong>
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M7 10l5 5 5-5z"/></svg></button>
+      <div class="langmenu">
+        <button data-code="hu"><img class="flag" src="https://flagcdn.com/w20/hu.png" alt=""> HU Magyar</button>
+      </div>
+    </div>
+  </div>
+</header>
+
+<section class="hero" style="background-image:url('bg_rug.jpg')">
+  <div class="overlay"></div>
+  <div class="content container">
+    <h1 class="title">Ingatlanok itthon és külföldön</h1>
+
+    <div class="menu-grid">
+      <a href="#" class="menu-btn" data-open="search">Díjmentes tanácsadás</a>
+      <a href="ingatlanok_listazva.html" class="menu-btn" target="_blank">Ingatlanok listázva</a>
+      <a href="egyiptom.html" class="menu-btn" target="_blank">Egyiptomi ingatlanok</a>
+      <a href="dubaj.html" class="menu-btn" target="_blank">Dubaji ingatlanok</a>
+      <a href="spanyol.html" class="menu-btn" target="_blank">Spanyolországi ingatlanok</a>
+    </div>
+
+    <div class="glass-collapsible">
+      <div class="hero__glass hero__glass--thin">
+        <div class="tabs">
+          <button class="tab active" data-tab="sale">Eladó</button>
+          <button class="tab" data-tab="rent">Kiadó</button>
+          <button class="tab" data-tab="med">Mediterrán</button>
+        </div>
+        <div class="search-row">
+          <label>Kulcsszó
+            <input type="text" placeholder="Mit keres?">
+          </label>
+          <label>Kategória
+            <select>
+              <option>Válassz kategóriát</option>
+              <option>Lakás</option><option>Ház</option><option>Telek</option>
+              <option>Iroda</option><option>Üzlethelyiség</option>
+            </select>
+          </label>
+          <label>Lokáció
+            <select><option>Budapest</option><option>Balaton</option><option>Külföld</option></select>
+          </label>
+          <button class="btn">🔎 Keresés</button>
+        </div>
+        <div class="filter-row">
+          <label>Ingatlan típusa
+            <select><option>Lakás</option><option>Ház</option><option>Telek</option><option>Nyaraló</option></select>
+          </label>
+          <label>Hol keres?
+            <select><option>Budapest</option><option>Vidék</option><option>Külföld</option></select>
+          </label>
+          <label>Alapterület (m² – tól-ig)
+            <input type="text" placeholder="pl. 45 – 90">
+          </label>
+          <label>Ár (M Ft – tól-ig)
+            <input type="text" placeholder="pl. 45 – 120">
+          </label>
+        </div>
+        <div class="quick">
+          <a class="btn ghost" href="#" target="_blank">Eladó ingatlanok →</a>
+          <a class="btn ghost" href="#" target="_blank">Kiadó ingatlanok →</a>
+          <a class="btn ghost" href="#" target="_blank">Mediterrán ingatlanok →</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="marquee-text">
+  <div class="container">
+    <div class="glass-box">
+      <div class="track">
+        <span class="chip"><a href="https://partner.example/1" target="_blank"><img src="logo_sg.jpg" alt=""> 20 év tapasztalat</a></span>
+        <span class="chip"><a href="https://partner.example/2" target="_blank"><img src="logo_sg.jpg" alt=""> Díjmentes tanácsadás</a></span>
+        <span class="chip"><a href="https://partner.example/3" target="_blank"><img src="logo_sg.jpg" alt=""> Ügyvédi háttér</a></span>
+        <span class="chip"><a href="https://partner.example/4" target="_blank"><img src="logo_sg.jpg" alt=""> Nemzetközi kapcsolatok</a></span>
+        <span class="chip"><a href="https://partner.example/5" target="_blank"><img src="logo_sg.jpg" alt=""> Ingatlan kezelés</a></span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<a href="#" class="back-btn">← Vissza</a>
+<footer class="footer"><div class="container">© 2025 Stony & Grigo Property</div></footer>
+<script src="script.js"></script>
+</body>
+</html>
